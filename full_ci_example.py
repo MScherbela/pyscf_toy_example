@@ -96,5 +96,6 @@ for ax in axes:
     ax.set_xlabel("x-coordinate of electron 0")
 
 fig.suptitle("Full CI for Lithium Hydride (LiH, 4 electrons)", fontsize=16)
+fig.savefig("slices_plots.png", dpi=200, bbox_inches="tight")
 
 
