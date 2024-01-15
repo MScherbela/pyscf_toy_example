@@ -1,0 +1,3 @@
+numpy
+matplotlib
+pyscf==2.4.0
