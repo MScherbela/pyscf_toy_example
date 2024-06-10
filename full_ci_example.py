@@ -35,7 +35,7 @@ print(f"No. of orbitals: {n_orbitals}")
 # and single particle basis functions
 print("Running FCI...")
 fci = pyscf.fci.FCI(mol, hf.mo_coeff)
-n_states = 5
+n_states = 10
 fci.nroots = n_states
 energies_fci, fci_vecs = fci.kernel()
 orb_occupations = pyscf.fci.cistring.gen_occslst(range(19), 2)
